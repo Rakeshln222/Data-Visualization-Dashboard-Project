@@ -1,0 +1,7 @@
+import sqlite3
+
+def load_from_database():
+    conn = sqlite3.connect('covid_data.db')
+    df = pd.read_sql_query("SELECT * FROM covid_stats", conn)
+    conn.close()
+    return df

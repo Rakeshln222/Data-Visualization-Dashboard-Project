@@ -294,8 +294,3 @@ streamlit run app.py --server.port=8502
 - All data is aggregated and anonymized
 - Database is stored locally
 - No tracking or analytics
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-

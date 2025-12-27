@@ -5,10 +5,6 @@
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
 
-An interactive, web-based dashboard for visualizing and analyzing COVID-19 statistics across different countries. Built with Streamlit and Plotly for real-time data exploration.
-
-![Dashboard Preview](https://via.placeholder.com/800x400/1f77b4/ffffff?text=COVID-19+Dashboard+Preview)
-
 ## ✨ Features
 
 ### 📊 **Interactive Visualizations**
@@ -235,17 +231,6 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 - Write docstrings for all functions
 - Include tests for new features
 
-## 📈 API Reference
-
-### Data Loading Functions
-```python
-from src.data_loader import DataLoader
-
-loader = DataLoader()
-df = loader.generate_sample_data()  # Generate sample data
-df = loader.load_from_database()    # Load from SQLite
-df = loader.fetch_real_data()       # Fetch from API
-```
 
 ### Visualization Functions
 ```python

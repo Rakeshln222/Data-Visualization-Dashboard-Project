@@ -109,21 +109,6 @@ The dashboard supports three data sources:
 2. **Database**: SQLite database with persistent storage
 3. **Real-time API**: Live data from public COVID-19 APIs
 
-### Environment Variables
-Create a `.env` file for configuration:
-```env
-# API Configuration
-COVID_API_URL=https://disease.sh/v3/covid-19/countries
-UPDATE_FREQUENCY=3600
-
-# Database Configuration
-DB_PATH=./data/database/covid_data.db
-
-# Application Settings
-CACHE_DURATION=3600
-MAX_DATA_POINTS=10000
-```
-
 ## 📊 Usage Guide
 
 ### 1. **Data Source Selection**
